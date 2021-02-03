@@ -15,6 +15,9 @@
 		451A09BF25C5375400A019B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A09BD25C5375400A019B9 /* LaunchScreen.storyboard */; };
 		451A09CA25C5375400A019B9 /* QnaChoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A09C925C5375400A019B9 /* QnaChoiceTests.swift */; };
 		451A09D525C5375400A019B9 /* QnaChoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A09D425C5375400A019B9 /* QnaChoiceUITests.swift */; };
+		451A09E725C5392400A019B9 /* Qna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A09E625C5392400A019B9 /* Qna.swift */; };
+		451A09EC25C53C3B00A019B9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A09EB25C53C3B00A019B9 /* ResultViewController.swift */; };
+		451A09FA25C6AE5E00A019B9 /* QnaScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A09F925C6AE5E00A019B9 /* QnaScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		451A09D025C5375400A019B9 /* QnaChoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QnaChoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		451A09D425C5375400A019B9 /* QnaChoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaChoiceUITests.swift; sourceTree = "<group>"; };
 		451A09D625C5375400A019B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451A09E625C5392400A019B9 /* Qna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qna.swift; sourceTree = "<group>"; };
+		451A09EB25C53C3B00A019B9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		451A09F925C6AE5E00A019B9 /* QnaScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				451A09B425C5375100A019B9 /* SceneDelegate.swift */,
 				451A09B625C5375100A019B9 /* ViewController.swift */,
 				451A09B825C5375100A019B9 /* Main.storyboard */,
+				451A09EB25C53C3B00A019B9 /* ResultViewController.swift */,
+				451A09E625C5392400A019B9 /* Qna.swift */,
+				451A09F925C6AE5E00A019B9 /* QnaScore.swift */,
 				451A09BB25C5375400A019B9 /* Assets.xcassets */,
 				451A09BD25C5375400A019B9 /* LaunchScreen.storyboard */,
 				451A09C025C5375400A019B9 /* Info.plist */,
@@ -258,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451A09EC25C53C3B00A019B9 /* ResultViewController.swift in Sources */,
+				451A09E725C5392400A019B9 /* Qna.swift in Sources */,
 				451A09B725C5375100A019B9 /* ViewController.swift in Sources */,
+				451A09FA25C6AE5E00A019B9 /* QnaScore.swift in Sources */,
 				451A09B325C5375100A019B9 /* AppDelegate.swift in Sources */,
 				451A09B525C5375100A019B9 /* SceneDelegate.swift in Sources */,
 			);
